@@ -1,0 +1,18 @@
+apiVersion: 1
+
+datasources:
+  - name: Postgres
+    uid: postgres-airflow
+    type: postgres
+    access: proxy
+    url: postgres:5432
+    database: mastodon_sentiment_db
+    user: airflow
+    secureJsonData:
+      password: airflow
+    jsonData:
+      sslmode: disable
+      postgresVersion: 1300
+      timescaledb: false
+    isDefault: true
+    editable: true

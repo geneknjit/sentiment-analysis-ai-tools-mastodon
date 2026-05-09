@@ -1,0 +1,6 @@
+Mastodon.py==1.5.1
+vaderSentiment==3.3.2
+beautifulsoup4==4.11.1
+torch==1.10.2
+transformers==4.18.0
+huggingface-hub==0.4.0
